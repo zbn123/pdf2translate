@@ -91,5 +91,5 @@ def convert(fname):
                 newstr=""
         elif (ord(c)>=32) or (ord(c)<=122) :
             newstr=newstr+c
-
+#convert example pdf file "doc1.pdf" to text and translate English to Turkish via google translate
 convert("doc1.pdf")
